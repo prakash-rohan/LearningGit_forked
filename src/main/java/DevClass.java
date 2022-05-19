@@ -12,7 +12,8 @@ public class DevClass {
         
         
         Collections.sort(nums);
-
+        System.out.println("\n");
+        nums.forEach(num -> System.out.println(num + "->"));
 
         // how do we sort Rohan ?
 
