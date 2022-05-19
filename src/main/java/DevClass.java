@@ -9,6 +9,9 @@ public class DevClass {
 
         // printing the raw numbers
         nums.forEach(num -> System.out.println(num + "->"));
+        
+        
+        Collections.sort(nums);
 
 
         // how do we sort Rohan ?
