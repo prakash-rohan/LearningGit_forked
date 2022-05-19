@@ -9,7 +9,13 @@ public class DevClass {
 
         // printing the raw numbers
         nums.forEach(num -> System.out.println(num + "->"));
-
+        
+        
+        
+        // Have addes some codes to print the sorted Arrays too;
+        Collections.sort(nums);
+        System.out.println("\n");
+        nums.forEach(num -> System.out.println(num + "->"));
 
         // how do we sort Rohan ?
 
