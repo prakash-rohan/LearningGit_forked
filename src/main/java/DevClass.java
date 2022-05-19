@@ -1,9 +1,17 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class DevClass {
     public static void main(String[] args) {
         System.out.println("Hello From Dev Class");
+        List<Integer> nums = new ArrayList<>(Arrays.asList(1,9,2,3,9,5,1,3,9,7));
 
-        // just adding few lines over here
+        // printing the raw numbers
+        nums.forEach(num -> System.out.println(num + "->"));
 
-        // adding few more lines
+
+        // how do we sort Rohan ?
+
     }
 }
